@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Log In</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Log In</h1>
+            <form id="loginForm">
+                <div class="form-group">
+                    <div class="input-field">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" id="userEmail" placeholder=" Email" >
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" id="userPassword" placeholder="password">
+                    </div>
+                    <p>Forgot password <a href="">Click here!</a></p>
+                </div>
+                <div class="submit-btn">
+                    <button type="submit" id="loginBtn">log In</button>
+                    <a href="./signin.html" class="disabled">Sign In</a>
+            </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./src/login.js"></script>
+</body>
+</html>
